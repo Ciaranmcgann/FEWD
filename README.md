@@ -1,1 +1,1 @@
-FEWD Lectures and excercises
+FEWD Lectures and exercises
