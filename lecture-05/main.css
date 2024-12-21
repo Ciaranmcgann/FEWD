@@ -1,0 +1,35 @@
+header{
+  background-color: white;
+}
+
+.header_text{
+  color: #f6f6f6;
+  align-items: center;
+  text-decoration: none 
+  
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em
+}
+
+.flashimg{
+  height: 300px;
+  padding: 50px;
+}
+
+.wonderimg{
+  height: 300px;
+  padding: 50px;
+}
+.supermanimg{
+  height: 300px;
+  padding: 50px;
+}
+.zatannaimg{
+  height: 300px;
+  padding: 50px;
+}
