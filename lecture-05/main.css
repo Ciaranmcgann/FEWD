@@ -1,12 +1,56 @@
-header{
-  background-color: white;
+body {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px
 }
 
-.header_text{
-  color: #f6f6f6;
-  align-items: center;
-  text-decoration: none 
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul{
+  background-color: rgb(27, 78, 174);
+  list-style-type: none;
+  overflow: hidden;
   
+}
+
+.navbar a{
+  color: #f6f6f6;
+  text-decoration: none;
+  padding:  20px ;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.494);
+}
+
+.navbar li{
+  float: left;
+}
+
+.DCimg {
+  width: fit-content;
+}
+.tablereverse { 
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+li {
+  flex: 0 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -14,6 +58,26 @@ header{
   display: flex;
   justify-content: space-between;
   gap: 1em
+}
+
+.wonder_div {
+  background-color: rgb(27, 78, 174);
+}
+
+.superman {
+  background-color: rgb(27, 78, 174);
+}
+
+.zatanna {
+  background-color: rgb(27, 78, 174);
+}
+
+.flash_div {
+  background-color: rgb(27, 78, 174);
+}
+
+.flash_div {
+  background-color: rgb(27, 78, 174);
 }
 
 .flashimg{
@@ -33,3 +97,11 @@ header{
   height: 300px;
   padding: 50px;
 }
+
+footer{
+  background-color: rgb(27, 78, 174);
+}
+.footer{
+  color: aliceblue;
+}
+
